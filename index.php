@@ -6,17 +6,6 @@
 // ==================================================
 
 
-// Errors dekhne ke liye
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
-
-// Yeh code dikhayega ki server par kaun si files hain
-echo "<h3>Server par maujood files aur folders:</h3><pre>";
-print_r(scandir(__DIR__));
-echo "</pre>";
-die(); // Code ko yahan rokne ke liye
-
 require_once __DIR__ . '/config/database.php';
 require_once __DIR__ . '/includes/functions.php';
 require_once __DIR__ . '/includes/auth.php';
