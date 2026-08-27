@@ -244,11 +244,11 @@ if ($currentUser) {
             break;
 
         case 'organizer':
-            $dashboardUrl = 'modules/organizer/dashboard.php';
+            $dashboardUrl = 'o-dashboard.php';
             break;
 
         case 'admin':
-            $dashboardUrl = 'modules/admin/dashboard.php';
+            $dashboardUrl = 'a-dashboard.php';
             break;
     }
 }
