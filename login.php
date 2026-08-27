@@ -38,14 +38,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             $role = $_SESSION['role'] ?? 'student';
 
 
-            // ------------------------------------
-            // ROLE BASED REDIRECT
-            // ------------------------------------
-
             if ($role === 'admin') {
 
                 header(
-                    'Location: dashboard.php'
+                    'Location: modules/admin/dashboard.php'
                 );
 
                 exit;
@@ -56,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($role === 'organizer') {
 
                 header(
-                    'Location: dashboard.php'
+                    'Location: modules/organizer/dashboard.php'
                 );
 
                 exit;
@@ -67,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Default student
 
             header(
-                'Location: dashboard.php'
+                'Location: modules/student/dashboard.php'
             );
 
             exit;
