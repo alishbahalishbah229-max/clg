@@ -63,7 +63,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             // Default student
 
             header(
-                'Location: modules/student/dashboard.php'
+                'Location: /student-dashboard.php'
             );
 
             exit;
