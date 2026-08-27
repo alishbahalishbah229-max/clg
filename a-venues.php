@@ -3225,7 +3225,7 @@ textarea.control{
 
 </main>
 
-<?php require_once __DIR__ . '/../../includes/footer.php'; ?>
+<?php require_once __DIR__ . '/footer.php'; ?>
 </body>
 
 </html>
