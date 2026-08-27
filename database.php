@@ -1,9 +1,9 @@
 <?php
 // Database configuration
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'centerbeam.proxy.rlwy.net;port=54230');
 define('DB_NAME', 'campus_event_360');
 define('DB_USER', 'root');
-define('DB_PASS', '12345678'); // ← Yahan apna sahi password daalo
+define('DB_PASS', 'NQMyAJhATbQWNGVUNRKPiQMPbHjATkSw'); // ← Yahan apna sahi password daalo
 
 // Application configuration
 define('APP_NAME', 'CampusEvent360');
