@@ -41,7 +41,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($role === 'admin') {
 
                 header(
-                    'Location: modules/admin/dashboard.php'
+                    'Location: /a-dashboard.php'
                 );
 
                 exit;
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             if ($role === 'organizer') {
 
                 header(
-                    'Location: modules/organizer/dashboard.php'
+                    'Location: /o-dashboard.php'
                 );
 
                 exit;
