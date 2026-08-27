@@ -327,7 +327,7 @@ try {
 
     <link
         rel="stylesheet"
-        href="assets/css/style.css"
+        href="/style.css"
     >
 
 </head>
