@@ -1,9 +1,10 @@
 ```php
 <?php
 
-require_once __DIR__ . '/database.php';
-require_once __DIR__ . '/functions.php';
-require_once __DIR__ . '/auth.php';
+require_once __DIR__ . '/../../config/database.php';
+require_once __DIR__ . '/../../includes/functions.php';
+require_once __DIR__ . '/../../includes/auth.php';
+
 requireRole('student');
 
 $user = getCurrentUser();
@@ -1541,10 +1542,10 @@ if ($event && $registration) {
     <aside class="sidebar">
 
 
-        <a
-            href="../../index.php"
-            class="brand"
-        >
+      <a
+    href="student-dashboard.php"
+    class="brand"
+>
 
             <div class="brand-mark">
                 E

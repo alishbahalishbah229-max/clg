@@ -1,8 +1,8 @@
 <?php
 
-require_once __DIR__ . '/database.php';
-require_once __DIR__ . '/functions.php';
-require_once __DIR__ . '/auth.php';
+require_once __DIR__ . '/config/database.php';
+require_once __DIR__ . '/includes/functions.php';
+require_once __DIR__ . '/includes/auth.php';
 
 requireRole('student');
 
@@ -13,7 +13,7 @@ if (session_status() === PHP_SESSION_NONE) {
 $user = getCurrentUser();
 
 if (!$user) {
-    header('Location: ../../login.php');
+    header('Location: login.php');
     exit;
 }
 
@@ -1869,7 +1869,7 @@ h1{
 
 
 <a
-    href="dashboard.php"
+    href="student-dashboard.php"
     class="brand"
 >
 
@@ -1902,7 +1902,7 @@ h1{
 
 
     <a
-        href="dashboard.php"
+        href="student-dashboard.php"
         class="nav-link active"
     >
 
@@ -1918,7 +1918,7 @@ h1{
 
 
     <a
-        href="events.php"
+        href="st-events.php"
         class="nav-link"
     >
 
@@ -1934,7 +1934,7 @@ h1{
 
 
     <a
-        href="my-registrations.php"
+        href="st-my-registrations.php"
         class="nav-link"
     >
 
@@ -1950,7 +1950,7 @@ h1{
 
 
     <a
-        href="my-tickets.php"
+        href="st-my-tickets.php"
         class="nav-link"
     >
 
@@ -1966,7 +1966,7 @@ h1{
 
 
     <a
-        href="attendance.php"
+        href="st-attendance.php"
         class="nav-link"
     >
 
@@ -1982,7 +1982,7 @@ h1{
 
 
     <a
-        href="media.php"
+        href="st-media.php"
         class="nav-link"
     >
 
