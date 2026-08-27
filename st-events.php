@@ -2226,7 +2226,7 @@ h1{
 
 
                     <a
-                        href="event-details.php?event_id=<?= urlencode(
+                        href="st-event-details.php?event_id=<?= urlencode(
                             $event[
                                 'event_id'
                             ]
@@ -2326,7 +2326,7 @@ h1{
 </main>
 
 
-<?php require_once __DIR__ . '/../../includes/footer.php'; ?>
+<?php require_once __DIR__ . '/footer.php'; ?>
 
 
 </body>
