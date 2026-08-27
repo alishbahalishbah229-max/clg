@@ -380,11 +380,11 @@ try {
 
             <?php else: ?>
 
-                <a href="./login.php">
+                <a href="/login.php">
                     Login
                 </a>
 
-                <a href="./register.php">
+                <a href="/register.php">
                     Register
                 </a>
 
