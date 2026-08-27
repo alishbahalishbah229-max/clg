@@ -1,9 +1,8 @@
 <?php
 
-require_once __DIR__ . '/../../config/database.php';
-require_once __DIR__ . '/../../includes/functions.php';
-require_once __DIR__ . '/../../includes/auth.php';
-
+require_once __DIR__ . '/database.php';
+require_once __DIR__ . '/functions.php';
+require_once __DIR__ . '/auth.php';
 requireRole('admin');
 
 if (session_status() === PHP_SESSION_NONE) {
