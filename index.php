@@ -240,7 +240,7 @@ if ($currentUser) {
     switch ($currentUser['role']) {
 
         case 'student':
-            $dashboardUrl = 'modules/student/dashboard.php';
+            $dashboardUrl = 'student-dashboard.php';
             break;
 
         case 'organizer':
